@@ -8,7 +8,7 @@ body {
     margin: 0;
 }
 
-/* Estilos base (mobile) */
+/* Estilos base (mobile y tablet) */
 .fixed-decoration {
   display: none;
 }
@@ -40,7 +40,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    align-items: center; /* Para centrar h1, logo y cta en mobile */
+    align-items: center; 
 }
 
 .logo {
@@ -180,7 +180,7 @@ h4 {
     display: none;
 }
 
-/* Estilos para pantallas >= 768px (desktop) */
+/* Estilos para pantallas >= 996px (desktop) */
 @media (min-width: 996px) {
 
     .fixed-decoration {
@@ -214,7 +214,7 @@ h4 {
 
     .cta {
         align-items: start;
-        flex-direction: column; /* ya está así, por si quieres row en algún momento */
+        flex-direction: column; 
     }
 
     .body {
